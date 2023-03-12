@@ -1,0 +1,13 @@
+{
+  "name": "mapbox-gl-jsdom-plugin-workspace",
+  "version": "0.0.1",
+  "description": "Provide capabilities to JSDOM to render MapBox-GL",
+  "repository": "git@github.com:Harkunwar/mapbox-gl-jsdom-plugin.git",
+  "author": "Harkunwar Kochar",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "packageManager": "yarn@3.4.1"
+}

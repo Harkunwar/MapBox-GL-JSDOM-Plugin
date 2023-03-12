@@ -1,0 +1,11 @@
+{
+    "name": "mapbox-gl-jsdom-plugin",
+    "version": "0.0.1",
+    "description": "Provide capabilities to JSDOM to render MapBox-GL",
+    "main": "index.js",
+    "author": "Harkunwar Kochar",
+    "license": "MIT",
+    "devDependencies": {
+        "mapbox-gl-jsdom-plugin-tools": "workspace:^"
+    }
+}
