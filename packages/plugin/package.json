@@ -5,7 +5,22 @@
     "main": "index.js",
     "author": "Harkunwar Kochar",
     "license": "MIT",
+    "scripts": {
+        "build": "esbuild ./src/index.ts --outdir=./dist --format=cjs --external:canvas --external:gl --external:node-canvas-webgl --external:jsdom --bundle --platform=node --sourcemap"
+    },
+    "dependencies": {
+        "canvas": "^2.11.0",
+        "cross-blob": "^3.0.2",
+        "cross-fetch": "^3.1.5",
+        "esbuild": "^0.17.11",
+        "gl": "^6.0.2",
+        "jsdom": "^21.1.1",
+        "node-canvas-webgl": "https://github.com/akira-cn/node-canvas-webgl.git",
+        "web-worker": "^1.2.0"
+    },
     "devDependencies": {
+        "@types/gl": "^6.0.2",
+        "@types/node": "^18.15.0",
         "mapbox-gl-jsdom-plugin-tools": "workspace:^"
     }
 }

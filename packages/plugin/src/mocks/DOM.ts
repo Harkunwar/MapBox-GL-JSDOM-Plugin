@@ -1,0 +1,1 @@
+export { mockDOM } from 'node-canvas-webgl';

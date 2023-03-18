@@ -1,7 +1,12 @@
 {
     "cSpell.words": [
+        "devcontainers",
+        "drawingbuffer",
         "Harkunwar",
         "Kochar",
-        "mapbox"
+        "mapbox",
+        "maplibre",
+        "STACKGL",
+        "webgl"
     ]
 }

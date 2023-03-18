@@ -4,10 +4,22 @@
     "description": "Provide capabilities to JSDOM to render MapBox-GL",
     "author": "Harkunwar Kochar",
     "license": "MIT",
+    "main": "./dist/index",
+    "scripts": {
+        "test": "xvfb-run -s \"-ac -screen 0 1280x1024x24\" yarn jest"
+    },
     "dependencies": {
-        "mapbox-gl-jsdom-plugin": "workspace:^"
+        "canvas": "^2.11.0",
+        "gl": "^6.0.2",
+        "jest": "^29.5.0",
+        "jest-environment-jsdom": "^29.5.0",
+        "jsdom": "^21.1.1",
+        "mapbox-gl-jsdom-plugin": "workspace:^",
+        "maplibre-gl": "^2.4.0",
+        "ts-jest": "^29.0.5"
     },
     "devDependencies": {
+        "@types/jest": "^29.4.0",
         "mapbox-gl-jsdom-plugin-tools": "workspace:^"
     }
 }
